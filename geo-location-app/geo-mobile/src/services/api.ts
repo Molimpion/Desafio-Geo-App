@@ -1,7 +1,6 @@
 import { Place } from '../types/Place';
 
-// SUBSTITUA PELO SEU IP DO BACKEND
-const API_URL = 'http://172.26.47.72:3000'; 
+const API_URL = 'http://10.0.104.113:3000'; 
 
 export const getPlaces = async (): Promise<Place[]> => {
   try {
